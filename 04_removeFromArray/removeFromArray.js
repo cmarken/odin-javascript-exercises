@@ -1,6 +1,6 @@
 const removeFromArray = function(array, ...toBeRemovedList) {
     for (const toBeFilteredOut of toBeRemovedList) {
-        array = array.filter(item => item != toBeFilteredOut);
+        array = array.filter(item => item !== toBeFilteredOut);
     }
 /*    const newArray = array.filter(item => {
         for (const toBeFilteredOut of toBeRemovedList) {
